@@ -16,6 +16,7 @@ public class Main {
         }
         System.out.println("Wpisz swoj login :");
         String login = in.nextLine();
+        // komentarz
 
         boolean loginIstnieje = false;
         for (int i = 0; i < tablicaKlientow.length; i++) {
